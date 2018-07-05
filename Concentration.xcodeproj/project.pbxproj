@@ -54,14 +54,22 @@
 		7D9F891B20E36DD600CE0564 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				7D9F891C20E36DD600CE0564 /* AppDelegate.swift */,
+				7D9F892E20E36E1700CE0564 /* Supporting Files */,
 				7D9F891E20E36DD600CE0564 /* ViewController.swift */,
 				7D9F892020E36DD600CE0564 /* Main.storyboard */,
-				7D9F892320E36DD700CE0564 /* Assets.xcassets */,
-				7D9F892520E36DD700CE0564 /* LaunchScreen.storyboard */,
 				7D9F892820E36DD700CE0564 /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		7D9F892E20E36E1700CE0564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F891C20E36DD600CE0564 /* AppDelegate.swift */,
+				7D9F892320E36DD700CE0564 /* Assets.xcassets */,
+				7D9F892520E36DD700CE0564 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3X7S4AHYB;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3X7S4AHYB;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
