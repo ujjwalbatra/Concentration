@@ -37,13 +37,7 @@ class Concentration {
             let card = Card()
             cards += [card, card]
         }
-        
         cards = shuffled()
-        
-        // todo: shuffle the cards
-    
-    
-        
     }
     
     func shuffled() -> [Card] {
