@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             print("chosen card was not in cardButtons")
         }
     }
-    var emojiChoices = ["😈","🐶","🍎","🍫","🍀","🎃","🌏","🌈","👻"]
+    var emojiChoices = ["😈","🐶","🍎","🍫","🍀","🎃","🌏","🌈","👻","🎱","🎹","🎧","🎺","🎳","🎮","🧘‍♀️","⛄️","🚙","🧜‍♀️"]
     var emoji = [Int:String]()
     
     func emoji (for card: Card) -> String {
@@ -61,4 +61,4 @@ class ViewController: UIViewController {
     }
 }
 
- 
+

@@ -37,7 +37,22 @@ class Concentration {
             let card = Card()
             cards += [card, card]
         }
-        //        TODO : Shuffle the cards
         
+        cards = shuffled()
+        
+        // todo: shuffle the cards
+    
+    
+        
+    }
+    
+    func shuffled() -> [Card] {
+        var shuffledCards = [Card]()
+       
+        for index in cards.indices {
+            let randomIndex = Int(arc4random_uniform(UInt32(cards.count - 1)))
+            shuffledCards.insert(cards.remove(at: randomIndex), at: index)
+        }
+        return shuffledCards
     }
 }

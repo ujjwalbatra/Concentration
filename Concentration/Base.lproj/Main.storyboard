@@ -18,123 +18,250 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5m-mj-Ioc">
-                                <rect key="frame" x="16" y="44" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5m-mj-Ioc">
+                                <rect key="frame" x="16" y="44" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="10V-hC-hnc"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="IYp-2X-Uoe"/>
+                                    <constraint firstAttribute="width" constant="80" id="Jw2-Pp-E9h"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="b3c-1s-8Gs"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rz2-qV-ZaD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1I-kL-Llj">
-                                <rect key="frame" x="103" y="44" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1I-kL-Llj">
+                                <rect key="frame" x="103" y="44" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="NjN-7B-1OW"/>
+                                    <constraint firstAttribute="height" constant="105" id="OmB-HX-8mc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="kkB-0u-rgu"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="qAZ-eb-mhj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3G-RV-BUg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKX-Rd-KHZ">
-                                <rect key="frame" x="191" y="44" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKX-Rd-KHZ">
+                                <rect key="frame" x="190" y="44" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="5Zu-3t-6Tq"/>
+                                    <constraint firstAttribute="width" constant="80" id="OIh-E6-LZu"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l1b-g8-LDx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ6-sj-Nno">
-                                <rect key="frame" x="279" y="44" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ6-sj-Nno">
+                                <rect key="frame" x="277" y="44" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="JNO-3b-6Ah"/>
+                                    <constraint firstAttribute="height" constant="105" id="KpD-75-3I6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5Z-hF-GVz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAc-og-pNc">
-                                <rect key="frame" x="16" y="164" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0B-PS-DQ6">
+                                <rect key="frame" x="16" y="156" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="BEJ-cr-dpO"/>
+                                    <constraint firstAttribute="width" constant="80" id="VjA-Ny-bo1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dNa-SU-Z48"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bdx-B4-h7T"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74F-xG-0fN">
-                                <rect key="frame" x="103" y="164" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76U-c7-k7N">
+                                <rect key="frame" x="103" y="156" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="1oY-fH-Ifw"/>
+                                    <constraint firstAttribute="height" constant="105" id="Hwm-gg-5Tg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="ceL-4b-Poc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="lao-Ut-B1V"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s7W-Kh-glB"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vC-oo-SNM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15J-hW-Bea">
-                                <rect key="frame" x="191" y="164" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7V6-V3-Qif">
+                                <rect key="frame" x="190" y="156" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="Jnx-vU-lcB"/>
+                                    <constraint firstAttribute="height" constant="105" id="Llw-lF-pcM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Xck-ep-USp"/>
+                                    <constraint firstAttribute="width" constant="80" id="fca-dd-t5c"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mhy-og-Pw6"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PEN-50-bdV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVd-0g-wUF">
-                                <rect key="frame" x="279" y="164" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3c-mE-T4D">
+                                <rect key="frame" x="279" y="157" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="M5L-ek-N8d"/>
+                                    <constraint firstAttribute="width" constant="80" id="d3R-Lb-Hba"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R1i-aA-0qd"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yja-b1-Zfn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emS-2T-89R">
-                                <rect key="frame" x="16" y="285" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghR-9b-vbO">
+                                <rect key="frame" x="16" y="268" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="YZj-B6-tf2"/>
+                                    <constraint firstAttribute="height" constant="105" id="xNA-kQ-uKJ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EeA-Dy-mYs"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRa-n2-R4X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fld-kg-3bZ">
-                                <rect key="frame" x="103" y="285" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBm-lV-WYU">
+                                <rect key="frame" x="103" y="268" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="JSk-Oe-Ro7"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="Pau-y6-g18"/>
+                                    <constraint firstAttribute="height" constant="105" id="VhN-4d-ldj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NgO-fF-JTW"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDB-n5-Kmt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LfS-oI-tpb">
-                                <rect key="frame" x="191" y="285" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zne-2B-yYB">
+                                <rect key="frame" x="190" y="268" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="ZZp-Lv-ME7"/>
+                                    <constraint firstAttribute="height" constant="105" id="go7-Os-ZkB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PQU-pE-Ob1"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0dV-Ne-OVe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUw-2N-aLY">
-                                <rect key="frame" x="279" y="285" width="80" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKu-JD-VLN">
+                                <rect key="frame" x="279" y="269" width="80" height="105"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="WaW-Yg-0xb"/>
+                                    <constraint firstAttribute="height" constant="105" id="pYS-Ke-jLL"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ggk-ZU-50f"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g0V-qD-pKc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips:  0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPC-17-yqI">
-                                <rect key="frame" x="110" y="730" width="161" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips:  0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPC-17-yqI">
+                                <rect key="frame" x="121.33333333333333" y="730" width="132.33333333333337" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcZ-V7-PbH">
+                                <rect key="frame" x="16" y="380" width="80" height="105"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="evq-YJ-ZKa"/>
+                                    <constraint firstAttribute="width" constant="80" id="krT-A3-LBZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vf8-aN-9ak"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjv-fA-SNu">
+                                <rect key="frame" x="103" y="380" width="80" height="104"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="JWM-qB-aWU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jpO-oN-gMZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYd-Ra-zMR">
+                                <rect key="frame" x="191" y="380" width="80" height="104"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="eVv-eg-55c"/>
+                                    <constraint firstAttribute="width" constant="80" id="u7t-ic-zNo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ncC-8s-17K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3p-FW-78L">
+                                <rect key="frame" x="279" y="380" width="80" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="okY-sq-sDS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="76U-c7-k7N" firstAttribute="top" secondItem="O1I-kL-Llj" secondAttribute="bottom" constant="7" id="3tM-V2-512"/>
+                            <constraint firstItem="ghR-9b-vbO" firstAttribute="top" secondItem="n0B-PS-DQ6" secondAttribute="bottom" constant="7" id="6Ln-A0-bft"/>
+                            <constraint firstItem="XBm-lV-WYU" firstAttribute="top" secondItem="76U-c7-k7N" secondAttribute="bottom" constant="7" id="9F6-gr-bUU"/>
+                            <constraint firstItem="76U-c7-k7N" firstAttribute="leading" secondItem="n0B-PS-DQ6" secondAttribute="trailing" constant="7" id="C1g-25-Yhg"/>
+                            <constraint firstItem="lQ6-sj-Nno" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CpX-SY-det"/>
+                            <constraint firstItem="O1I-kL-Llj" firstAttribute="leading" secondItem="u5m-mj-Ioc" secondAttribute="trailing" constant="7" id="Fq1-Zy-kgo"/>
+                            <constraint firstItem="hKX-Rd-KHZ" firstAttribute="leading" secondItem="O1I-kL-Llj" secondAttribute="trailing" constant="7" id="HgI-ST-wnn"/>
+                            <constraint firstItem="XBm-lV-WYU" firstAttribute="top" secondItem="76U-c7-k7N" secondAttribute="bottom" constant="7" id="MKs-NK-SDS"/>
+                            <constraint firstItem="P3c-mE-T4D" firstAttribute="top" secondItem="lQ6-sj-Nno" secondAttribute="bottom" constant="7" id="Nvc-se-87O"/>
+                            <constraint firstItem="7V6-V3-Qif" firstAttribute="top" secondItem="hKX-Rd-KHZ" secondAttribute="bottom" constant="7" id="OAM-zr-6lh"/>
+                            <constraint firstItem="pcZ-V7-PbH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="QGd-na-EDc"/>
+                            <constraint firstItem="n0B-PS-DQ6" firstAttribute="top" secondItem="u5m-mj-Ioc" secondAttribute="bottom" constant="7" id="T0U-pj-wXD"/>
+                            <constraint firstItem="lQ6-sj-Nno" firstAttribute="leading" secondItem="hKX-Rd-KHZ" secondAttribute="trailing" constant="7" id="TEo-0p-NnX"/>
+                            <constraint firstItem="Zne-2B-yYB" firstAttribute="top" secondItem="7V6-V3-Qif" secondAttribute="bottom" constant="7" id="TPa-zl-yYj"/>
+                            <constraint firstItem="hKX-Rd-KHZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UHf-1d-6bm"/>
+                            <constraint firstItem="76U-c7-k7N" firstAttribute="leading" secondItem="n0B-PS-DQ6" secondAttribute="trailing" constant="7" id="V0e-7p-5qk"/>
+                            <constraint firstItem="76U-c7-k7N" firstAttribute="top" secondItem="O1I-kL-Llj" secondAttribute="bottom" constant="7" id="WOH-E5-Ybk"/>
+                            <constraint firstItem="dYd-Ra-zMR" firstAttribute="leading" secondItem="vjv-fA-SNu" secondAttribute="trailing" constant="7" id="XiZ-Cs-Xg7"/>
+                            <constraint firstItem="u5m-mj-Ioc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Zna-VT-uf7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JKu-JD-VLN" secondAttribute="trailing" constant="16" id="bb9-hn-dLE"/>
+                            <constraint firstItem="n0B-PS-DQ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dYM-hw-U1z"/>
+                            <constraint firstItem="P3c-mE-T4D" firstAttribute="top" secondItem="lQ6-sj-Nno" secondAttribute="bottom" constant="8" symbolic="YES" id="eI2-o5-Zps"/>
+                            <constraint firstItem="XBm-lV-WYU" firstAttribute="leading" secondItem="ghR-9b-vbO" secondAttribute="trailing" constant="7" id="ghp-LF-6Ki"/>
+                            <constraint firstItem="O1I-kL-Llj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gqs-1L-boG"/>
+                            <constraint firstItem="7V6-V3-Qif" firstAttribute="leading" secondItem="76U-c7-k7N" secondAttribute="trailing" constant="7" id="gsJ-sk-vAn"/>
+                            <constraint firstItem="Zne-2B-yYB" firstAttribute="leading" secondItem="XBm-lV-WYU" secondAttribute="trailing" constant="7" id="lZX-na-Xvb"/>
+                            <constraint firstItem="7V6-V3-Qif" firstAttribute="top" secondItem="hKX-Rd-KHZ" secondAttribute="bottom" constant="7" id="mqK-Az-J30"/>
+                            <constraint firstItem="u5m-mj-Ioc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mxe-5D-vbQ"/>
+                            <constraint firstItem="pcZ-V7-PbH" firstAttribute="top" secondItem="ghR-9b-vbO" secondAttribute="bottom" constant="7" id="qAo-Sh-Bfp"/>
+                            <constraint firstItem="JKu-JD-VLN" firstAttribute="top" secondItem="P3c-mE-T4D" secondAttribute="bottom" constant="7" id="qbw-si-Xyc"/>
+                            <constraint firstItem="dYd-Ra-zMR" firstAttribute="top" secondItem="Zne-2B-yYB" secondAttribute="bottom" constant="7" id="tci-s0-Z7a"/>
+                            <constraint firstItem="ghR-9b-vbO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uKI-CE-F0H"/>
+                            <constraint firstItem="XBm-lV-WYU" firstAttribute="leading" secondItem="ghR-9b-vbO" secondAttribute="trailing" constant="7" id="wsd-bp-O1S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P3c-mE-T4D" secondAttribute="trailing" constant="16" id="xEy-Ww-pRY"/>
+                            <constraint firstItem="XPC-17-yqI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xF2-T0-mnU"/>
+                            <constraint firstItem="7V6-V3-Qif" firstAttribute="leading" secondItem="76U-c7-k7N" secondAttribute="trailing" constant="7" id="yiV-vd-8In"/>
+                            <constraint firstItem="XPC-17-yqI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zx7-OJ-5VR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -142,15 +269,19 @@
                         <outletCollection property="cardButtons" destination="u5m-mj-Ioc" collectionClass="NSMutableArray" id="PFg-LM-icJ"/>
                         <outletCollection property="cardButtons" destination="O1I-kL-Llj" collectionClass="NSMutableArray" id="w3A-Ly-t2J"/>
                         <outletCollection property="cardButtons" destination="lQ6-sj-Nno" collectionClass="NSMutableArray" id="uFM-G5-fCB"/>
-                        <outletCollection property="cardButtons" destination="QAc-og-pNc" collectionClass="NSMutableArray" id="Yq9-lj-aJB"/>
-                        <outletCollection property="cardButtons" destination="74F-xG-0fN" collectionClass="NSMutableArray" id="LF6-mt-70X"/>
-                        <outletCollection property="cardButtons" destination="15J-hW-Bea" collectionClass="NSMutableArray" id="r5o-Dd-jkk"/>
-                        <outletCollection property="cardButtons" destination="BVd-0g-wUF" collectionClass="NSMutableArray" id="oER-un-aOp"/>
-                        <outletCollection property="cardButtons" destination="emS-2T-89R" collectionClass="NSMutableArray" id="Eyv-gw-B75"/>
-                        <outletCollection property="cardButtons" destination="fld-kg-3bZ" collectionClass="NSMutableArray" id="nhF-zE-ZPM"/>
-                        <outletCollection property="cardButtons" destination="LfS-oI-tpb" collectionClass="NSMutableArray" id="zuj-1m-0dr"/>
-                        <outletCollection property="cardButtons" destination="nUw-2N-aLY" collectionClass="NSMutableArray" id="y9V-wN-xdQ"/>
                         <outletCollection property="cardButtons" destination="hKX-Rd-KHZ" collectionClass="NSMutableArray" id="MvC-q7-rsO"/>
+                        <outletCollection property="cardButtons" destination="n0B-PS-DQ6" collectionClass="NSMutableArray" id="kIk-6P-BEd"/>
+                        <outletCollection property="cardButtons" destination="76U-c7-k7N" collectionClass="NSMutableArray" id="zvh-BI-Nob"/>
+                        <outletCollection property="cardButtons" destination="7V6-V3-Qif" collectionClass="NSMutableArray" id="x4l-8V-ZsV"/>
+                        <outletCollection property="cardButtons" destination="P3c-mE-T4D" collectionClass="NSMutableArray" id="VYv-GE-RCs"/>
+                        <outletCollection property="cardButtons" destination="ghR-9b-vbO" collectionClass="NSMutableArray" id="uWU-zQ-bNp"/>
+                        <outletCollection property="cardButtons" destination="XBm-lV-WYU" collectionClass="NSMutableArray" id="xwU-9G-RMX"/>
+                        <outletCollection property="cardButtons" destination="Zne-2B-yYB" collectionClass="NSMutableArray" id="P1R-8c-lxE"/>
+                        <outletCollection property="cardButtons" destination="JKu-JD-VLN" collectionClass="NSMutableArray" id="1N5-XH-d6F"/>
+                        <outletCollection property="cardButtons" destination="pcZ-V7-PbH" collectionClass="NSMutableArray" id="r8F-qb-D4j"/>
+                        <outletCollection property="cardButtons" destination="vjv-fA-SNu" collectionClass="NSMutableArray" id="6D8-FY-bVz"/>
+                        <outletCollection property="cardButtons" destination="dYd-Ra-zMR" collectionClass="NSMutableArray" id="vYW-ZM-xFa"/>
+                        <outletCollection property="cardButtons" destination="C3p-FW-78L" collectionClass="NSMutableArray" id="tQc-Fl-T3K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
